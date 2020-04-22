@@ -128,3 +128,8 @@ footer>b:hover {
     opacity: 0.9;
 
 }
+
+/* Cursor */
+.txt-type > .txt{
+    border-right: 0.2rem solid #777;
+}

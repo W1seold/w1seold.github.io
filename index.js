@@ -65,7 +65,6 @@ var Typer = {
     }
 
     if (key.keyCode != 122) {
-      // otherway prevent keys default behavior
       key.returnValue = false;
     }
   },
@@ -79,7 +78,7 @@ var Typer = {
           .html()
           .substring(0, cont.length - 1),
       );
-    else this.write('|'); // else write it
+    else this.write('|');
   },
 };
 
