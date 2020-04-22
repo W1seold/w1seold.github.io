@@ -133,4 +133,5 @@ footer>b:hover {
 
 .hidden{
     display:none;
+    visibility: hidden;
 }
