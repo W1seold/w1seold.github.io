@@ -130,3 +130,7 @@ footer>b:hover {
     opacity: 0.9;
 
 }
+
+.hidden{
+    display:none;
+}
