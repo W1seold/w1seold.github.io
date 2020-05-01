@@ -109,6 +109,6 @@ function t() {
 
 // Particles
 //./particles == assets/particles.json
-particlesJS.load('particles-js', './particles.json', function() {
+particlesJS.load('body', './particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
