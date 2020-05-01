@@ -106,3 +106,9 @@ function t() {
     clearInterval(timer);
   }
 }
+
+// Particles
+//./particles == assets/particles.json
+particlesJS.load('particles-js', './particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
