@@ -1,4 +1,14 @@
-html{margin: 0;}
+#particles-js
+{
+    height: 100vh;
+    background:black;
+}
+
+
+html{
+    position: relative;
+    margin: 0;
+}
 
 header,#console, main{
     margin: 0 auto 70px;
@@ -58,9 +68,9 @@ a {
     	99% { color: black; }
 }
 
-footer>* {
+#signature>* {
 
-	margin-top: 1px;
+    margin-top: 47%;
 
     flex: 1 0 auto;
 
@@ -72,20 +82,20 @@ footer>* {
 
     align-items: center;
 
-    background-color: black;
+    /*background-color: black;*/    
 
-    margin-bottom: auto;
+    position: absolute;
+
+    margin-left: 42%;
 }
 
-footer>b {
-
+#signature>b {
     text-decoration: none;
-
 }
 
 
 
-footer>b>img {
+#signature>b>img {
 
     height: 30px;
 
@@ -105,7 +115,7 @@ footer>b>img {
 
 
 
-footer>b>p {
+#signature>b>p {
 
 	font-family: Electrolize;
 
@@ -119,7 +129,7 @@ footer>b>p {
 
 
 
-footer>b:hover {
+#signature>b:hover {
 
     opacity: 0.9;
 
@@ -130,8 +140,7 @@ footer>b:hover {
     visibility: hidden;
 }
 
-#particles
-{
-    height: 100%
-    background-color:black;
+.HTB{
+    margin-left: 0px;
+    margin-top:7%;
 }
