@@ -1,9 +1,3 @@
-#particles-js
-{
-    height: 100vh;
-    background:black;
-}
-
 html{
     position: relative;
     margin: 0;
@@ -19,11 +13,16 @@ header,#console, main{
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #000
+    background-color: #000;
 }
 
-#console {
+.console {
+    height: 90vh;
+    max-width: 100vW;
+    max-height: 90vh;
+}
+
+#terminal {
 	font-family: courier, monospace;
 	color: #fff;
 	width:750px;
@@ -34,29 +33,29 @@ body{
     text-align: left;
 }
 
-a {
+#cyan {
 	color: #00FFFF;
 	text-decoration: none;
 }
 
-#a {
+#green {
 	color: #0f0;
 }
 
-#c {
+#red {
 	color: rgb(255, 0, 0);
 }
 
-#b {
+#pink {
 	color: #ff0096;
 }
 
-#k {
-    	animation: change 1s;
+#blink {
+    animation: change 1s;
 }
 
-#op{
-    	color: #888888
+#grey{
+    color: #888888
 }
 
 @keyframes change {
@@ -66,8 +65,7 @@ a {
 }
 
 #signature>* {
-
-    margin-top: 47%;
+    margin-left: 42%;
 
     flex: 1 0 auto;
 
@@ -81,9 +79,7 @@ a {
 
     /*background-color: black;*/    
 
-    position: absolute;
-
-    margin-left: 42%;
+    position: fixed;
 }
 
 #signature>b {
@@ -129,10 +125,4 @@ a {
 .hidden{
     display:none;
     visibility: hidden;
-}
-
-#HTB{
-    margin-left: 785px;
-    margin-top:97px;
-    color: #3d4043;
 }
